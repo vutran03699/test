@@ -8,7 +8,7 @@ var io = require("socket.io")(server);
 var Message = require('./app/message');
 const dotenv = require('dotenv');
 dotenv.config();
-server.listen(3000);
+server.listen(27017);
 //============================
 app.use(express.static("public"));
 app.set("view engine", "ejs");
