@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Onlnie</title>
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+    <link rel="stylesheet" type="text/css" href="layout.css"/>
+  </head>
+  <body>
+    <div id="wrapper">
+    <div id="loginFrom">
+            <input type="text" name="txtemail" placeholder="Email"></br>
+            <input type="text" id="txtUsername" placeholder="Tài khoản đăng nhập"></br>
+            <input type="text" id="txtpassword" placeholder="Nhập mật khẩu"></br>
+            <input type="text" id="txtpasswordconf" placeholder="Xác nhận mật khẩu"></br>
+            <input type="button"  value="Register" id="btRegister">
+    </div>
+    <div id="chatFrom">
+      <div id="left">
+          <div id="boxTitle">User Online</div>
+          <div id="boxContent"></div>
+      </div>
+      <div id="right">
+          <div id="sayhi">
+            Hello <span id="currentUser"></span>
+            <input type="button" id="btLogout" value="Log Out">
+            <input type="button" id="bttaoroom" value="Tạo Room">
+
+          </div>
+          <div id="listMessages">
+          </div>
+          <div id="thongbao">
+
+          </div>
+          <div id="textchatfrom">
+            <input type="text" id="txtMessages"placeholder="Message...">
+            <input type="button" id="btMessages" value="Send" >
+          </div>
+      </div>
+    </div>
+    <div id="roomFrom">
+      <div id="leftRoom">
+        <div id="roomTitle">List Rooms</div>
+        <div id="listRoom"></div>
+      </div>
+      <div id="ROOMS">
+        <div id="rooms">
+        <input type="text" id="txtrooms"/>
+        <input type="button" id="btrooms" value="Tạo Room" onclick="chuyenhuong();">
+        <h4 id="inTheroom"></h4>
+        <input type="button" id="btleaveroom" value="Leave Room">
+
+      </div>
+      </div>
+      <div id="rightRoom">
+
+        <div id="listMessagesgroup">
+
+        </div>
+        <div id="thongbaorooms">
+
+        </div>
+        <div id="CHATS">
+          <input type="text" id="txtMessagesroom" style="height:50px;width:750px;">
+          <input type="button" id="btnChat"value="Send">
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

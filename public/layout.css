@@ -1,0 +1,29 @@
+body{background-color: white;};
+#wrapper{width: 600px;margin: auto;}
+#loginFrom{text-align: center;border-radius: 20px;padding: 10px;margin: 300px;margin-top: 100px;background-color: #9494a687;}
+#txtUsername{background-color: transparent;border: solid 3px black;}
+#txtpassword{background-color: transparent;border: solid 3px black;}
+#txtpasswordconf{background-color: transparent;border: solid 3px black;}
+#left,#right{min-height: 658px;}
+#left{width: 29.5%;float: left; background-color: #fff;border-style: groove;border-radius: 16px;}
+#right{width: 69.5%;float: right;background-color: #fff;}
+#boxTitle{padding: 5px;text-align: center;font-weight: bolder;border-style: groove;border-radius: 16px;}
+#boxContent{text-align: center;}
+#uSer{height: 20px;padding: 10px;border-bottom-style: groove; }
+#sayhi{text-align: right;padding: 10px;}
+#listMessages{height: 432px;background-color: #fff;margin-bottom: 5px;margin-top: 5px;border-style: groove;border-radius: 16px;padding: 10px;overflow-y: scroll;}
+#txtMessages{height: 50px;width: 700px;border-radius: 16px}
+#textchatfrom{margin-top: -110px;padding: 20px}
+#thongbao{height: 104px;border-style: groove;border-radius: 16px;padding: 5px;}
+#ROOMS{float:left;background-color: none;border-style:groove;border-radius: 16px;height: 60px;width: 920px;margin-left: 5px;}
+#rooms{padding: 18px;}
+#sayhi{height: 50px;border-style: groove;border-radius: 16px;}
+#roomTitle{padding: 5px;text-align: center;font-weight: bolder;border-bottom-style: groove; }
+#listRoom{border-bottom-style:groove; padding: 5px;text-align: center;}
+#leftRoom{width: 29.5%;float: left; background-color: #fff;border-style: groove;border-radius: 16px;}
+#rightRoom{width: 69.5%;float: right;background-color: #fff;}
+#inTheroom{background-color: grey;width: 100px;float: right;}
+#listMessagesgroup{height: 200px;background-color: #fff;margin-bottom: 5px;margin-top: 5px;border-radius: 16px;border-style: groove;}
+#leftRoom, #rightRoom {min-height: 400px;}
+#CHATS{border-style:groove;border-radius: 16px;height: 100px; padding: 10px;}
+#txtMessagesroom{}
